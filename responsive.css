@@ -1,0 +1,132 @@
+body{
+    background-color:gray;
+}
+
+
+.container{
+    width:100%;
+    display:flex;
+    font-size:50px;
+    text-align:center;
+    font-family:Helvetica;
+
+}
+h1{
+    color:#01DFD7;
+    text-align: center;
+    font-size: 50px;
+}
+
+.red{
+    background-color:red;
+    width:30%;
+    margin:auto;
+    cursor:pointer;
+}
+
+.green{
+    background-color:green;
+    width:30%;
+    margin:auto;
+    cursor:pointer;
+}
+
+.yellow{
+    background-color:yellow;
+    width: 30%;
+    margin:auto;
+    cursor:pointer;
+}
+
+.newBox{
+    text-align: center;
+}
+
+#rightChoice {
+    margin:10px;
+    font-size:25px;
+    margin-left:20px;
+    border-radius:5px;
+}
+
+#rightChoice:hover{
+    background-color:#01DFD7;
+    color:white;
+}
+
+
+#myInput{
+    margin-top:30px;
+    margin-left:20px;
+    width:10%;
+    font-size:20px;
+
+}
+
+#colors{
+    font-size:40px;
+}
+.paragraph{
+    font-size:50px;
+    margin-top:150px;
+    margin-left:20px;
+    color:#01DFD7;
+}
+
+#result, #secondPara {
+    font-size:20px;
+    margin-left:20px;
+    color:white;
+    font-size:30px;
+}
+
+#newParagraph{
+    text-align:center;
+    font-size:50px;
+    color:#01DFD7;
+    margin-top:100px;
+    margin-bottom:50px;
+}
+
+.labelCase{
+    text-align:center;
+
+}
+
+
+
+footer{
+    color:#01DFD7;
+    font-size:20px;
+    text-align:center;
+    margin:100px;
+}
+
+
+@media only screen and (min-width:420px) and (max-width:720px){
+    .red{
+        background-color:salmon;
+        
+        
+    }
+    .green{
+        background-color:palegreen;
+       
+    }
+    .yellow{
+        background-color:pink;
+    }
+    .container{
+        flex-direction:column;
+        font-family:cursive;
+        font-size:1,5em;
+    }
+    h1{
+        color:grey;
+    }
+
+    body{
+        background-color: turquoise;
+    }
+}
+
